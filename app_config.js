@@ -16,7 +16,9 @@ var allowCors = function(req, res, next){
 	next();
 }
 
-app.listen(app.get('port'));
+app.listen(app.get('port'), function(){
+	console.log('Aplicao rodando na porta: ',app.get('port'));
+});
 
 app.use(bodyParser.json());
 
