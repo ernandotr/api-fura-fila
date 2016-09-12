@@ -4,7 +4,7 @@ var app = module.exports = express();
 
 var bodyParser = require('body-parser');
 
-app.set('port', (process.env.PORT || 5000));
+app.set('port', (process.env.PORT || 3000));
 
 var allowCors = function(req, res, next){
 
