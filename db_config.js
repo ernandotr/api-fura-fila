@@ -1,5 +1,5 @@
 var db_string = 'mongodb://localhost/first-api-restfull';
-//var db_string =  'mongodb://ernando_heroku:heroku!521@ds029436.mlab.com:29436/heroku_x23ntjx4';
+
 
 var mongoose = require('mongoose').connect(db_string);
 
