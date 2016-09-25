@@ -1,6 +1,5 @@
 var db_string = 'mongodb://localhost/first-api-restfull';
 
-
 var mongoose = require('mongoose').connect(db_string);
 
 var db = mongoose.connection;
